@@ -2,34 +2,55 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Frontend Mentor | Huddle landing page with single introductory section
+    </title>
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./images/favicon-32x32.png"
+      href="./assets/images/favicon-32x32.png"
     />
-
-    <title>
-      Frontend Mentor | Huddle landing page with single introductory section
-    </title>
-
-    <!-- No dude en eliminar estos estilos o personalizarlos en su propia hoja de estilo 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+    <link rel="stylesheet" href="./assets/index.css">
   </head>
+
   <body>
-    Build The Community Your Fans Will Love Huddle re-imagines the way we build
+    
+    <nav class="navigation">
+      <img src="./assets/images/logo.svg" alt="Huddle">
+    </nav>
+    <main>
+
+      <section class="hero">
+        <img src="./assets/images/illustration-mockups.svg" alt="Mockup">
+        <div class="hero__container">
+          <h2 class="container__title">
+            Build The Community Your Fans Will Love
+          </h2>
+          <p class="container__description">
+            Huddle re-images the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.
+          </p>
+          <button class="container__cta">Register</button>
+        </div>
+      </section>
+
+    </main>
+    <footer>
+
+      <div class="social-media">
+        <img src="./assets/images/facebook.svg" alt="Fcebook" class="social-media__icon">
+        <img src="./assets/images/twitter.svg" alt="Twitter" class="social-media__icon">
+        <img src="./assets/images/instagram.svg" alt="Instagram" class="social-media__icon">
+      </div>
+      <p class="attribution">
+        Build The Community Your Fans Will Love Huddle re-imagines the way we build
     communities. You have a voice, but so does your audience. Create connections
     with your users as you engage in genuine discussion. Register
+      </p>
+
+    </footer>
+    
   </body>
 </html>
